@@ -15,7 +15,7 @@ CONFIGURATION;
 1. Create directory named "wrd" under C:\xampp\htdocs
 2. Copy codeigniter application and system directories and index.php file into wrd. (from C:\xampp\ci\bcit-ci-CodeIgniter-b73eb19\)
 3. Create log directory in C:\xampp\htdocs\wrd\ for logging messages.
-4. In C:\xampp\htdocs\wrd\application\config\config.php file; Set rows in below;
+4. In C:\xampp\htdocs\wrd\application\config\config.php file; Set rows like below;
 	$config['base_url'] = 'http://localhost/wrd/';
 	$config['index_page'] = '';
 	$config['log_threshold'] = 1;
