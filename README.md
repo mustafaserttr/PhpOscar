@@ -1,5 +1,5 @@
 # PhpOscar
-Php Api for uploading XML to WMO OSCAR
+Php Code for uploading XML to WMO OSCAR
 This PHP code can use as example for uploading their own XML to OSCAR Surface portal.
 This upload example runs on Windows 10 Professional but can be adopt to Linux environment. 
 
@@ -15,11 +15,16 @@ CONFIGURATION;
 1. Create directory named "wrd" under C:\xampp\htdocs
 2. Copy codeigniter application and system directories and index.php file into wrd. (from C:\xampp\ci\bcit-ci-CodeIgniter-b73eb19\)
 3. Create log directory in C:\xampp\htdocs\wrd\ for logging messages.
-4. In C:\xampp\htdocs\wrd\application\config\config.php file; Set rows like below;
+4. In C:\xampp\htdocs\wrd\application\config\config.php file, set rows like below;
+
 	$config['base_url'] = 'http://localhost/wrd/';
+        
 	$config['index_page'] = '';
+        
 	$config['log_threshold'] = 1;
+        
 	$config['log_path'] = ''log/; 
+        
 5. Create .htaccess file in C:\xampp\htdocs\wrd\  and set rows in below;  
 <IfModule mod_rewrite.c>
 RewriteEngine On
