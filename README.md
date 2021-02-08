@@ -26,11 +26,17 @@ CONFIGURATION;
 	$config['log_path'] = ''log/; 
         
 5. Create .htaccess file in C:\xampp\htdocs\wrd\  and set rows in below;  
+
 <IfModule mod_rewrite.c>
+	
 RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteRule ^(.*)$ index.php/$1 [L]
+
 </IfModule>
 
 6. Create a php file wrd.php under C:\xampp\htdocs\wrd\application\controllers\ directory.
