@@ -27,17 +27,17 @@ CONFIGURATION;
         
 5. Create .htaccess file in C:\xampp\htdocs\wrd\  and set rows in below;  
 
-<IfModule mod_rewrite.c>
+	<IfModule mod_rewrite.c>
 	
-RewriteEngine On
+	RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)$ index.php/$1 [L]
+	RewriteRule ^(.*)$ index.php/$1 [L]
 
-</IfModule>
+	</IfModule>
 
 6. Create a php file wrd.php under C:\xampp\htdocs\wrd\application\controllers\ directory.
 This file will upload your XML file to OSCAR.
