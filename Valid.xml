@@ -67,7 +67,7 @@
                     <wmdr:responsibleParty>
                         <gmd:CI_ResponsibleParty id="id_b074e82c-4e5d-7937-e053-148ef98d6de4">
                             <gmd:individualName>
-<gco:CharacterString>ISIK,Ayse Gokcen,Ms.</gco:CharacterString>
+<gco:CharacterString>SERT,Mustafa,Mr.</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
 <gco:CharacterString>Turkish State Meteorological Service</gco:CharacterString>
@@ -83,7 +83,7 @@
                 <gco:CharacterString>TUR</gco:CharacterString>
             </gmd:country>
             <gmd:electronicMailAddress>
-                <gco:CharacterString>agisik@mgm.gov.tr</gco:CharacterString>
+                <gco:CharacterString>msert@mgm.gov.tr</gco:CharacterString>
             </gmd:electronicMailAddress>
         </gmd:CI_Address>
     </gmd:address>
@@ -104,7 +104,7 @@
                     <wmdr:responsibleParty>
                         <gmd:CI_ResponsibleParty id="id_b074e82c-4fb8-7937-e053-148ef98d6de4">
                             <gmd:individualName>
-<gco:CharacterString>Dündar,Cihan,Mr.</gco:CharacterString>
+<gco:CharacterString>Goktas,Hanifi,Mr.</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
 <gco:CharacterString>Turkish State Meteorological Service</gco:CharacterString>
@@ -134,7 +134,7 @@
                 <gco:CharacterString>TUR</gco:CharacterString>
             </gmd:country>
             <gmd:electronicMailAddress>
-                <gco:CharacterString>cdundar@mgm.gov.tr</gco:CharacterString>
+                <gco:CharacterString>hgoktas@mgm.gov.tr</gco:CharacterString>
             </gmd:electronicMailAddress>
         </gmd:CI_Address>
     </gmd:address>
