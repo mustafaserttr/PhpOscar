@@ -39,7 +39,10 @@ CONFIGURATION;
 
 	</IfModule>
 
-6. Create a php file wrdupload.php under C:\xampp\htdocs\wrd\application\controllers\ directory.
+6. create your own XML directory in C:\xampp\htdocs\wrd\ and copy your example xml into C:\xampp\htdocs\wrd\xml\
+   xml files should be compatible to OSCAR surface structure.
+
+7. Create a php file wrdupload.php under C:\xampp\htdocs\wrd\application\controllers\ directory.
 This file will upload your XML file to OSCAR.
 
 Don't forget to generate security token in OSCAR - Management - Manage Machine Access before run php code.
